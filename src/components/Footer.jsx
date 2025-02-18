@@ -21,7 +21,29 @@ function Footer() {
                     </ul>
                 </div>
     
-               
+                                                {/* Colonna Shop */}
+                                                <div className="col-md-3">
+                    <h5>SHOP</h5>
+                    <ul className="list-unstyled">
+                    <li><a href="#" className="text-white text-decoration-none">Shop DC</a></li>
+                    <li><a href="#" className="text-white text-decoration-none">Shop DC Collectibles</a></li>
+                    </ul>
+                </div>
+    
+                                                {/* Colonna DC */}
+                <div className="col-md-3">
+                    <h5>DC</h5>
+                    <ul className="list-unstyled">
+                    <li><a href="#" className="text-white text-decoration-none">Terms Of Use</a></li>
+                    <li><a href="#" className="text-white text-decoration-none">Privacy Policy</a></li>
+                    <li><a href="#" className="text-white text-decoration-none">Ad Choices</a></li>
+                    <li><a href="#" className="text-white text-decoration-none">Advertising</a></li>
+                    <li><a href="#" className="text-white text-decoration-none">Jobs</a></li>
+                    <li><a href="#" className="text-white text-decoration-none">Subscriptions</a></li>
+                    <li><a href="#" className="text-white text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+    
             </div>
         </div>
     
