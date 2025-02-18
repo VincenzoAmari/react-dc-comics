@@ -11,13 +11,13 @@ function Footer() {
                 <div className="col-md-3">
                     <h5>DC COMICS</h5>
                     <ul className="list-unstyled">
-                    <li><a href="#" className="text-white text-decoration-none">Characters</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">Comics</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">Movies</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">TV</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">Games</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">Videos</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">News</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">Characters</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">Comics</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">Movies</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">TV</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">Games</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">Videos</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">News</a></li>
                     </ul>
                 </div>
     
@@ -34,13 +34,13 @@ function Footer() {
                 <div className="col-md-3">
                     <h5>DC</h5>
                     <ul className="list-unstyled">
-                    <li><a href="#" className="text-white text-decoration-none">Terms Of Use</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">Privacy Policy</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">Ad Choices</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">Advertising</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">Jobs</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">Subscriptions</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">Contact Us</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">Terms Of Use</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">Ad Choices</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">Advertising</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">Jobs</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">Subscriptions</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">Contact Us</a></li>
                     </ul>
                 </div>
     
@@ -48,11 +48,11 @@ function Footer() {
                                                 <div className="col-md-3">
                     <h5>SITES</h5>
                     <ul className="list-unstyled">
-                    <li><a href="#" className="text-white text-decoration-none">DC</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">MAD Magazine</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">DC Kids</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">DC Universe</a></li>
-                    <li><a href="#" className="text-white text-decoration-none">DC Power Visa</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">DC</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">MAD Magazine</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">DC Kids</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">DC Universe</a></li>
+                        <li><a href="#" className="text-white text-decoration-none">DC Power Visa</a></li>
                     </ul>
                 </div>
             </div>
