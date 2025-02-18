@@ -44,6 +44,17 @@ function Footer() {
                     </ul>
                 </div>
     
+                                                {/* Colonna Sites */}
+                                                <div className="col-md-3">
+                    <h5>SITES</h5>
+                    <ul className="list-unstyled">
+                    <li><a href="#" className="text-white text-decoration-none">DC</a></li>
+                    <li><a href="#" className="text-white text-decoration-none">MAD Magazine</a></li>
+                    <li><a href="#" className="text-white text-decoration-none">DC Kids</a></li>
+                    <li><a href="#" className="text-white text-decoration-none">DC Universe</a></li>
+                    <li><a href="#" className="text-white text-decoration-none">DC Power Visa</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     
