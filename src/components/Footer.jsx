@@ -52,7 +52,7 @@ function Footer() {
                 </div>
                 <div className="row mt-4">
                     <div className="col-12 d-flex justify-content-between align-items-center">
-                        <button className="btn btn-primary">SIGN-UP NOW!</button>
+                        <button className="btn btn-outline-primary">SIGN-UP NOW!</button>
                         <div className="follow-us text-primary d-flex align-items-center">
                             <span>FOLLOW US</span>
                             <div className="social-icons d-flex">
