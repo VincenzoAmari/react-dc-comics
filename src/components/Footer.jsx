@@ -1,4 +1,4 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+
 
 
 function Footer() {
@@ -59,7 +59,7 @@ function Footer() {
             </div>
         
                                                 {/* Sezione Sign-Up e Social */}
-            <div className="bg-black py-3">
+            <div className="bg-dark py-3">
                 <div className="container d-flex justify-content-between align-items-center">
                     <button className="btn btn-outline-primary">SIGN-UP NOW!</button>
                     <div className="d-flex align-items-center">
