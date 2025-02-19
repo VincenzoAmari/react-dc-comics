@@ -3,72 +3,66 @@
 
 function Footer() {
     return (
-        <footer className="bg-dark text-white">
-                                            {/* Sezione link con sfondo */}
-            <div className="container py-4" style={{ backgroundImage: "../src/assets/img/footer-bg.jpg", backgroundSize: "cover", backgroundPosition: "center" }}>
+        <footer className="bg-dark text-white py-4">
+            <div className="container">
                 <div className="row">
-                                                {/* Colonna DC Comics */}
                     <div className="col-md-3">
                         <h5>DC COMICS</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#" className="text-white text-decoration-none">Characters</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">Comics</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">Movies</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">TV</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">Games</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">Videos</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">News</a></li>
+                            <li>Characters</li>
+                            <li>Comics</li>
+                            <li>Movies</li>
+                            <li>TV</li>
+                            <li>Games</li>
+                            <li>Videos</li>
+                            <li>News</li>
                         </ul>
                     </div>
-        
-                                                    {/* Colonna Shop */}
-                                                    <div className="col-md-3">
-                        <h5>SHOP</h5>
-                        <ul className="list-unstyled">
-                        <li><a href="#" className="text-white text-decoration-none">Shop DC</a></li>
-                        <li><a href="#" className="text-white text-decoration-none">Shop DC Collectibles</a></li>
-                        </ul>
-                    </div>
-        
-                                                    {/* Colonna DC */}
                     <div className="col-md-3">
                         <h5>DC</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#" className="text-white text-decoration-none">Terms Of Use</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">Privacy Policy</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">Ad Choices</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">Advertising</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">Jobs</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">Subscriptions</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">Contact Us</a></li>
+                            <li>Terms Of Use</li>
+                            <li>Privacy policy(New)</li>
+                            <li>Ad Choices</li>
+                            <li>Advertising</li>
+                            <li>Jobs</li>
+                            <li>Subscriptions</li>
+                            <li>Talent Workshops</li>
+                            <li>CPSC Certificates</li>
+                            <li>Ratings</li>
                         </ul>
                     </div>
-        
-                                                    {/* Colonna Sites */}
                     <div className="col-md-3">
                         <h5>SITES</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#" className="text-white text-decoration-none">DC</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">MAD Magazine</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">DC Kids</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">DC Universe</a></li>
-                            <li><a href="#" className="text-white text-decoration-none">DC Power Visa</a></li>
+                            <li>DC</li>
+                            <li>MAD Magazine</li>
+                            <li>DC Kids</li>
+                            <li>DC Universe</li>
+                            <li>DC Power Visa</li>
+                        </ul>
+                    </div>
+                    <div className="col-md-3">
+                        <h5>SHOP</h5>
+                        <ul className="list-unstyled">
+                            <li>Shop DC</li>
+                            <li>Shop DC Collectibles</li>
                         </ul>
                     </div>
                 </div>
-            </div>
-        
-                                                {/* Sezione Sign-Up e Social */}
-            <div className="bg-dark py-3">
-                <div className="container d-flex justify-content-between align-items-center">
-                    <button className="btn btn-outline-primary">SIGN-UP NOW!</button>
-                    <div className="d-flex align-items-center">
-                        <span className="me-3 fw-bold">FOLLOW US</span>
-                        <a href="#" className="text-white me-2"></a>
-                        <a href="#" className="text-white me-2"></a>
-                        <a href="#" className="text-white me-2"></a>
-                        <a href="#" className="text-white me-2"></a>
-                        <a href="#" className="text-white"></a>
+                <div className="row mt-4">
+                    <div className="col-12 d-flex justify-content-between align-items-center">
+                        <button className="btn btn-primary">SIGN-UP NOW!</button>
+                        <div className="follow-us text-primary d-flex align-items-center">
+                            <span>FOLLOW US</span>
+                            <div className="social-icons d-flex">
+                                <a href="#"><img src="src/assets/img/footer-facebook.png" alt="Facebook" className="img-fluid mx-2" style={{height: '20px'}} /></a>
+                                <a href="#"><img src="src/assets/img/footer-twitter.png" alt="Twitter" className="img-fluid mx-2" style={{height: '20px'}} /></a>
+                                <a href="#"><img src="src/assets/img/footer-youtube.png" alt="YouTube" className="img-fluid mx-2" style={{height: '20px'}} /></a>
+                                <a href="#"><img src="src/assets/img/footer-pinterest.png" alt="Pinterest" className="img-fluid mx-2" style={{height: '20px'}} /></a>
+                                <a href="#"><img src="src/assets/img/footer-periscope.png" alt="Periscope" className="img-fluid mx-2" style={{height: '20px'}} /></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
