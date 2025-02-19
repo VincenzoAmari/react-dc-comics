@@ -51,7 +51,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="text-center position-absolute" style={{right: '5%', top: '50%', transform: 'translateY(-50%)'}}>
-                <img src="src/assets/img/dc-logo-bg.png" alt="DC Centered Image" className="img-fluid" style={{maxWidth: '500px'}} />
+                <img src="src/assets/img/dc-logo-bg.png" alt="DC Centered Image" className="img-fluid" style={{maxWidth: '600px'}} />
                 </div>
             </div>
             <div className="container-fluid bg-dark text-white py-3" style={{position: 'relative', zIndex: 1}}>

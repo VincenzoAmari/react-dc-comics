@@ -1,6 +1,6 @@
 const Main = () => {
     return (
-        <div className="bg-primary text-white py-4 text-center">
+        <div className="bg-primary text-white py-4 text-center" style={{position: 'relative', zIndex: 1}}>
             <ul className="d-flex flex-wrap justify-content-center list-unstyled m-0 p-0">
         
                 {/* Digital Comics */}
