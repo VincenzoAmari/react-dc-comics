@@ -1,15 +1,14 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function Navbar() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container">
+        <div className="container">
         
-        {/* Logo */}
-        <a className="navbar-brand" href="#">
-          <img src="src/assets/img/dc-logo.png" alt="DC Logo" width="50" />
-        </a>
-         
+                                  {/* Logo */}
+          <a className="navbar-brand" href="#">
+            <img src="src/assets/img/dc-logo.png" alt="DC Logo" width="50" />
+          </a>
+          
        
        
           <div className="collapse navbar-collapse" id="navbarNav">
