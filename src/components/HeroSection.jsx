@@ -1,7 +1,7 @@
 function HeroSection({ comics }) {
   return (
     <div>
-      {/* Contenitore per l'immagine sopra "CURRENT SERIES" */}
+      
       <div 
         className="bg-dark" 
         style={{ 
@@ -12,18 +12,18 @@ function HeroSection({ comics }) {
         }}
       ></div>
 
-      {/* Sezione "CURRENT SERIES" con carte */}
+      
       <div className="bg-dark text-white py-5">
         <div className="container">
-          {/* Titolo "CURRENT SERIES" come nell'immagine, a sinistra, azzurro con testo bianco */}
+          
           <div className="d-flex justify-content-start mb-4">
             <div 
               className="px-3 py-2" 
               style={{ 
-                backgroundColor: '#007bff', // Azzurro Bootstrap primario
-                color: '#fff', // Testo bianco
-                borderRadius: '4px', // Angoli arrotondati come nell'immagine
-                fontWeight: 'bold' // Testo in grassetto per rispecchiare l'immagine
+                backgroundColor: '#007bff', 
+                color: '#fff', 
+                borderRadius: '4px', 
+                fontWeight: 'bold' 
               }}
             >
               <h2>CURRENT SERIES</h2>
